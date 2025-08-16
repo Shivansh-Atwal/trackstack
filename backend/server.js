@@ -21,7 +21,7 @@ mongoose
   .then(() => console.log('MongoDB connected'))
   .catch((e) => console.error('MongoDB connection error', e));
 
-// Basic security and parsing
+
 const corsOrigin = process.env.CORS_ORIGIN || 'http://localhost:5173';
 app.use(
   cors({
@@ -34,10 +34,10 @@ app.use(express.json({ limit: '10mb' }));
 
 const songsRouter = require('./routes/songs');
 
-// Routes
+
 const authRouter = require('./routes/auth');
 
-// Health
+
 app.get('/api/health', (_, res) => res.json({ ok: true }));
 
 app.use('/api/auth', authRouter);

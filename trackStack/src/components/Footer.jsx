@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="text-white font-semibold tracking-wide">🎵 TrackStack</div>
             <p className="mt-2 text-sm text-zinc-400 max-w-prose">
-              Write lyrics, attach beats, and record ideas. Keep everything local to your device with quick backup and restore.
+              Write lyrics, attach beats, and record ideas. Keep everything local to your device with quick backup and restore By - Shivansh Atwal
             </p>
           </div>
 

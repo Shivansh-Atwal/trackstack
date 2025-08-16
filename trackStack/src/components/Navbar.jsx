@@ -46,9 +46,7 @@ export default function Navbar() {
           {/* Logo and Brand */}
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-purple-500/25 transition-all duration-300">
-                <span className="text-xl">🎵</span>
-              </div>
+              
               <div className="flex flex-col">
                 <span className="font-bold text-xl bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
                   TrackStack
